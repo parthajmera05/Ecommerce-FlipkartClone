@@ -1,0 +1,42 @@
+*{
+    border: 0px ; 
+    margin: 0px; 
+    box-sizing: border-box;
+}
+.navbar{
+    height: 13vh ; 
+    width: 100%;
+    border: 5px;
+    border-color: red;
+    border-style: solid;
+    
+}
+.basicmenu{
+    height: 20vh ; 
+    width: 100%;
+    border: 5px;
+    border-color: blue;
+    border-style: solid;
+}
+.slider{
+    height: 40vh ; 
+    width: 100%;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.items{
+    height: 150vh ; 
+    width: 100%;
+    border: 5px;
+    border-color: green;
+    border-style: solid;
+}
+.footer{
+    height: 50vh ; 
+    width: 100%;
+    background-color: black;
+    border-style: solid;
+}
+
+
