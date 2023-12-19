@@ -4,34 +4,35 @@
     box-sizing: border-box;
 }
 .navbar{
-    height: 13vh ; 
+    height: 10vh ; 
     width: 100%;
     border: 5px;
-    border-color: red;
+    border-color: rgb(241,242,244);
     border-style: solid;
-    background-color: aqua;
+    
     
     
 }
 .basicmenu{
     height: 20vh ; 
     width: 100%;
-    border: 5px;
-    border-color: blue;
+    border: 10px;
+    border-color: rgb(241,242,244);
     border-style: solid;
+    
 }
 .slider{
     height: 40vh ; 
     width: 100%;
     border: 5px;
-    border-color: black;
+    border-color: rgb(241,242,244);
     border-style: solid;
 }
 .items{
     height: 150vh ; 
     width: 100%;
     border: 5px;
-    border-color: green;
+    border-color: rgb(241,242,244);
     border-style: solid;
 }
 .footer{
@@ -39,6 +40,41 @@
     width: 100%;
     background-color: black;
     border-style: solid;
+}
+.basic-menu-list{
+    list-style: none;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    margin-right: 35px;
+}
+.basic-menu-list-element{
+    margin: 20px 0px  0px 0px;
+}
+.basic-menu-list-img{
+    height: 70px;
+    width: 70px;
+   
+}
+.basic-menu-list-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.basic-menu-list-name{
+    margin-left: 6px;
+}
+.basic-menu-list-element-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin: 0px 30px 0px 30px;
+}
+.basic-menu-link-divimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
