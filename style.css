@@ -122,8 +122,24 @@
     margin-top: 10px;
 }
 #text{
-border:none;
-width:300px;
-height:20px;
-background-color: antiquewhite;
+/*border:none;
+width:600px;
+height:40px;
+background-color: whitesmoke;
+align-content: flex-end;
+margin-left: 100px;
+font-size:large;*/
+
+}
+.navbar-row{
+    margin-top: 5px;
+}
+#text{
+    
+width:600px;
+height:10px;
+background-color: whitesmoke;
+
+margin-left: 300px;
+font-size:large;
 }
