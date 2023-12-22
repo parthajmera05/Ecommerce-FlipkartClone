@@ -125,9 +125,9 @@
     border-radius: 3px;
     text-align: center;
     text-wrap: wrap;
-    padding: 10px;
+    
     min-height:300px;
-    max-width: 250px;
+    max-width: 230px;
   }
   
   .plan-title{
@@ -169,7 +169,7 @@
   }
     
   .items-row{
-    margin-top: 10px;
+    margin-top: 20px;
   }
  
   
@@ -185,11 +185,11 @@
     position: absolute;
     width: 100%;
   } */
-  #text{
+  /*#text{
     border:none;
     width:300px;
     height:20px;
-    background-color: antiquewhite;  }
+    background-color: whitesmoke;  }*/
 
   .slider-img{
     position: absolute;
@@ -299,16 +299,19 @@
         
         
     }
-    .navbar-row{
-        position: absolute;
-    }
+    /*.navbar-row{
+        position: fixed;
+
+    }*/
     #text{
-        position: relative;
-        width: 300px;
-        font-size: x-large;
+        
+        width: 200px;
+        font-size: large;
         background-color: whitesmoke;
     }
     
+    
+
 
 }
 /*#text{
