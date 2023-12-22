@@ -85,7 +85,7 @@
     justify-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
+
 @media (max-width: 1565px){
     .basic-menu-list-element{
         margin: 20px 0px  0px 0px;
@@ -114,9 +114,9 @@
         position: absolute;
         
     
-    }
+    }}
 
-@media (max-width: 1450px){
+@media(max-width: 1450px){
     .basic-menu-list{
         list-style: none;
         display: flex ;
@@ -135,8 +135,8 @@
     .basic-menu-list-name{
         margin-left: 6px;
         font-size: 14px;
-    }
-}
+    }}
+
 @media (max-width: 1380px){
     .basic-menu-list{
         list-style: none;
