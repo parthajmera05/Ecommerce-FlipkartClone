@@ -171,6 +171,16 @@
   .items-row{
     margin-top: 10px;
   }
+ 
+  
+
+
+    
+
+
+ 
+  
+    
   /* .card-row{
     position: absolute;
     width: 100%;
@@ -289,6 +299,37 @@
         
         
     }
+    .navbar-row{
+        position: absolute;
+    }
+    #text{
+        position: relative;
+        width: 300px;
+        font-size: x-large;
+        background-color: whitesmoke;
+    }
+    
+
 }
+/*#text{
+/*border:none;
+width:600px;
+height:40px;
+background-color: whitesmoke;
+align-content: flex-end;
+margin-left: 100px;
+font-size:large;}*/
 
 
+/*.navbar-row{
+    margin-top: 5px;
+}
+#text{
+    
+width:600px;
+height:10px;
+background-color: whitesmoke;
+
+margin-left: 300px;
+font-size:large;
+}*/
