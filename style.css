@@ -2,6 +2,11 @@
     border: 0px ; 
     margin: 0px; 
     box-sizing: border-box;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar{
+    display: none;
 }
 .navbar{
     height: 100px ; 
@@ -70,9 +75,9 @@
     color: black;
     font-weight: 500;
 }
-.basic-menu-list-name{
-    /* margin-left: 0px; */
-}
+/* .basic-menu-list-name{
+     margin-left: 0px; 
+}*/
 .basic-menu-list-element-div{
     display: flex;
     flex-direction: column;
