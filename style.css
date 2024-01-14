@@ -8,7 +8,7 @@
 *::-webkit-scrollbar{
     display: none;
 }
-.navbar{
+.navbar-section{
     height: 90px ; 
     width: 100%;
     border: 5px;
@@ -16,11 +16,35 @@
     border-style: solid;
     position: relative;    
 }
-.nav-list{
-  margin-left: 40px;
+.navbar{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.search{
+.navlist{
+  
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap:40px ; 
+  margin-right: 70px;
+}
+.navbar-search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240,245,255);
+}
+
+.search-text{
+  height: 50px;
   width: 800px;
+  background-color: rgb(240,245,255);
+  padding: 5px;
 }
 .basicmenu{
     height: 150px ; 
