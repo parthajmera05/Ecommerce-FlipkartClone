@@ -10,12 +10,19 @@
     <div class="container">
         <div class="main">
             <div class="leftmain">
-                <div class="loginText"><h1>Login</h1></div>
-                <div class="logindesc"><p>uewoufbewufefewyfbewfyewbfwyi</p></div>
-                <div class="logimg"><img src="" alt=""></div>
+                <div class="loginText"><h1>Login       </h1></div>
+                <div class="logindesc"><p>Get access to your Orders, Wishlist and Recommendations</p></div>
+                <div class="logimg"><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png" alt=""></div>
             </div>
             <div class="rightmain">
-                
+                <form class="form" action="/submit" method="POST">
+                    <input id="inputtext"   type="text" placeholder="Enter Mobile No.">
+                    <p class="formp">By continuing, you agree to Flipkart's <span class="blue">Terms of Use</span> and <span class="blue">Privacy Policy</span>.</p>
+                    <input id="inputbtn" type="button" value="Request OTP">
+                </form>
+                <div class="down">
+                    <a href="/login/new">New to Flipkart? Create an account</a>
+                </div>
             </div>
         </div>
     </div>
