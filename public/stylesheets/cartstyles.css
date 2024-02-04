@@ -1,0 +1,34 @@
+.container{
+  
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 1500px;
+}
+.main{
+    font-family: sans-serif;
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 55%;
+    width: 80%;
+    border:2px solid rgb(239, 237, 237);
+    box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+}
+.button{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: orangered;
+    height: 30px;
+    width: 160px;
+    color:white;
+    border-radius: 2px;
+    
+}
