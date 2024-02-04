@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="/static/stylesheets/style.css" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  </head>
+  <body>
+    <!--We will be going to create 3 pages namely Landing page , login Page and checkout page .
+    Landing Page will contain 8 sections - 
+    1)Navbar
+    2)basic menu(same as flipkart website)
+    3)slider(DONE)
+    4)3-4 items sections
+    5)Footer-->
+
+    
+
+    <section class="navbar-section">
+        <nav class="navbar">
+          <ul class="navlist">
+            <li class="navlist-element"><div class="navbar-logo"><img src="/static/images/logo.jpg" width="160px" height="130px" title="Flipkart"></div></li>
+            <li class="navlist-element"><div class="navbar-search"><svg width="24" height="24" class="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><input placeholder="Search for Products, Brands, And More" type="text" class="search-text"></div></li>
+            <li class="navlist-element"><div class="navbar-login"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg" alt="Login" class="-dOa_b L_FVxe" width="24" height="24">Login</div></li>
+            <li class="navlist-element"><div class="navbar-seller"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" alt="Become a Seller" class="_1XmrCc">Become A Seller</div></li>
+            <li class="navlist-element"><div class="navbar-cart"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" alt="Cart" class="_1XmrCc" width="24" height="24">Cart</div></li>
+            <li class="navlist-element"><Login class="navbar-tripledotmenu"><img class="-dOa_b" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg" width="24" height="24" alt="Dropdown with more help links"></div></li>
+          </ul>
+        </nav>
+        </section>
+        <section class="basicmenu">
+      
+          <ul class="basic-menu-list">
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-6.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Grocery</p></a
+                >
+              </div>
+            </li>
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-3.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Mobiles</p></a
+                >
+              </div>
+            </li>
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-1.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Fashion</p></a
+                >
+              </div>
+            </li>
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-5.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Electronics</p></a
+                >
+              </div>
+            </li>
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-8.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Homes & Furniture</p></a
+                >
+              </div>
+            </li>
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-4.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Appliances</p></a
+                >
+              </div>
+            </li>
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-7.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Travel</p></a
+                >
+              </div>
+            </li>
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-9.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Beauty,Toys& More</p></a
+                >
+              </div>
+            </li>
+            <li class="basic-menu-list-element">
+              <div class="basic-menu-list-element-div">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="basic-menu-list-link"
+                  ><div class="basic-menu-link-divimg">
+                    <img
+                      src="/static/images/basic-menu-2.png"
+                      alt=""
+                      class="basic-menu-list-img"
+                    />
+                  </div>
+                  <p class="basic-menu-list-name">Two Wheelers</p></a
+                >
+              </div>
+            </li>
+          </ul>
+        
+      </section>
+        
+    <section class="slider">
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide"><img src="/static/images/slider1.png" alt="" class="slider-img"></div>
+              <div class="swiper-slide"><img src="/static/images/slider2.png" alt="" class="slider-img"></div>
+              <div class="swiper-slide"><img src="/static/images/slider3.png" alt="" class="slider-img"></div>
+              
+            </div>
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            
+            
+          </div>
+    </section>
+    <section class="items">
+
+      
+
+        
+    
+
+    </section>
+    <footer class="footer">
+      <div class="footer-div">
+      <div class="footer-up">
+        
+          <div class="footer-up-column-1-row">
+            <h6 class="footer-up-heading">ABOUT</h6>
+            <ul class="footer-up-list">
+              <li class="footer-up-list-element">Contact Us</li>
+              <li class="footer-up-list-element">About Us</li>
+              <li class="footer-up-list-element">Careers</li>
+              <li class="footer-up-list-element">Flipkart Stories</li>
+              <li class="footer-up-list-element">Press</li>
+              <li class="footer-up-list-element">Flipkart Wholesale</li>
+              <li class="footer-up-list-element">Cleartrip</li>
+              <li class="footer-up-list-element">Corporate Information</li>
+            </ul>
+          </div>
+          <div class="footer-up-column-1-row">
+            <h6 class="footer-up-heading">HELP</h6>
+            <ul class="footer-up-list">
+              <li class="footer-up-list-element">Payments</li>
+              <li class="footer-up-list-element">Shipping</li>
+              <li class="footer-up-list-element">Cancellation & Returns</li>
+              <li class="footer-up-list-element">FAQ</li>
+              <li class="footer-up-list-element">Report Infringement</li>
+            </ul>
+          </div>
+          <div class="footer-up-column-1-row">
+            <h6 class="footer-up-heading">CONSUMER POLICY</h6>
+            <ul class="footer-up-list">
+              <li class="footer-up-list-element">Cancellation & Returns</li>
+              <li class="footer-up-list-element">Terms Of Use</li>
+              <li class="footer-up-list-element">Security</li>
+              <li class="footer-up-list-element">Privacy</li>
+              <li class="footer-up-list-element">Sitemap</li>
+              <li class="footer-up-list-element">Grievance Redressal</li>
+              <li class="footer-up-list-element">EPR Compliance</li>
+            </ul>
+          </div>
+          <div class="footer-up-column-1-row">
+            <h6 class="footer-up-heading">SOCIAL</h6>
+            <ul class="footer-up-list">
+              <li class="footer-up-list-element">Facebook</li>
+              <li class="footer-up-list-element">Twitter</li>
+              <li class="footer-up-list-element">Instagram</li>
+              <li class="footer-up-list-element">Youtube</li>
+              <li class="footer-up-list-element">LinkedIn</li>
+            </ul>
+          </div>
+       
+        <!-- <div class="footer-up-column-breakline">
+
+        </div> -->
+        
+          <div id="footer-breakline" class="footer-up-column-2-row">
+            <h6 class="footer-down-heading">Mail us:</h6>
+            <p class="footer-down-content">
+              Flipkart Internet Private Limited,<br>
+              Buildings Alyssa, Begonia &<br>
+              Clove Embassy Tech Village,<br>
+              Outer Ring Road, Devarabeesanahalli Village,
+              Bengaluru, 560103,<br>
+              Karnataka, India<br>
+            </p>
+          </div>
+          <div class="footer-up-column-2-row">
+            <h6 class="footer-down-heading">Registered Office address:</h6>
+            <p class="footer-down-content">
+              Flipkart Internet Private Limited,<br>
+              Buildings Alyssa, Begonia &<br>
+              Clove Embassy Tech Village,<br>
+              Outer Ring Road, Devarabeesanahalli Village,
+              Bengaluru, 560103,<br>
+              Karnataka, India<br>
+              CIN : U51109KA2012PTC066107<br>
+              Telephone: <a href="" class="telelink">044-45614700</a><br>
+            </p>
+          </div>
+        </div>
+     
+      <hr class="footer-breakline">
+      <div class="footer-down">
+        <p class="love">Made With Love 	&#9829; By Parth Ajmera, Vardaan Gulati , and Pranjal Pandit</p>
+      </div>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>   
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  -->
+    <script src="/static/javasrcipts/script.js"></script>
+  </body>
+</html>
