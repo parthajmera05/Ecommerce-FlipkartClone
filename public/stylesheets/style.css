@@ -8,6 +8,10 @@
 *::-webkit-scrollbar{
     display: none;
 }
+.linkNav{
+  text-decoration: none;
+  color: black;
+}
 .navbar-section{
     height: 90px ; 
     width: 100%;
@@ -342,9 +346,9 @@
     
     align-items: center;
   }
-  .price{
+  /* .price{
    
-  }
+  } */
   .buttons{
     height: 9%;
     border: 1px solid black;

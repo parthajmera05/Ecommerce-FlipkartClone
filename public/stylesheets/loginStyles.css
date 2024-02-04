@@ -1,0 +1,37 @@
+*{
+    border: 0px ; 
+    margin: 0px; 
+    box-sizing: border-box;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.main{
+    border: 2px solid black;
+    position:relative ; 
+    height: 70%;
+    width: 50%;
+    display: flex;
+}
+.leftmain{
+    width: 300px;
+    background-color: rgb(40,116,240) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightmain{
+    
+}

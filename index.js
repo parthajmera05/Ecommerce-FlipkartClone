@@ -13,6 +13,15 @@ app.use("/static" , express.static(__dirname +"/public")) ;
 app.get("/" , (req,res) => {
     res.render("index.ejs") ; 
 }) ;
+app.get("/login" , (req,res) => {
+    res.render("login.ejs") ; 
+}) ;
+app.get("/cart" , (req,res) => {
+    res.render("cart.ejs") ; 
+}) ;
+app.get("/seller" , (req,res) => {
+    res.send("Coming Soon... ") ; 
+}) ;
 
 
 
